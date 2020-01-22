@@ -23,6 +23,7 @@ const HeaderNavbar = () => {
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <NavLink className="dropdown-item" to="Elev">Søg Skole Elev</NavLink>
                   <NavLink className="dropdown-item" to="SelvElev">Søg Selvlært Elev</NavLink>
+                  <NavLink className="dropdown-item" to="TipsOgRaad">Tips og god Råd</NavLink>
                   <NavLink className="dropdown-item" to="Opret">Opret dig </NavLink>
                 </div>
               </li>
@@ -33,7 +34,7 @@ const HeaderNavbar = () => {
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <NavLink className="dropdown-item" to="Firmae">Søg Virksomhed</NavLink>
                   <NavLink className="dropdown-item" to="LinkerForVirksomheder">Hvad er Linker</NavLink>
-                  <NavLink className="dropdown-item" to="#">?????</NavLink>
+                  <NavLink className="dropdown-item" to="ForAtOprette">Hvad skal der til</NavLink>
                   <NavLink className="dropdown-item" to="OpretVirksomhed">Opret Virksomhed</NavLink>
                 </div>
               </li>
@@ -43,9 +44,9 @@ const HeaderNavbar = () => {
                   Skoler
                 </NavLink>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <NavLink className="dropdown-item" to="#">?????</NavLink>
-                  <NavLink className="dropdown-item" to="#">?????</NavLink>
-                  <NavLink className="dropdown-item" to="#">?????r</NavLink>
+                  <NavLink className="dropdown-item" to="LinkerForSkole">Hvad er linker for din skole</NavLink>
+                  <NavLink className="dropdown-item" to="SkolePaaLinker">Hvordan kommer min skole på Linker</NavLink>
+                 
 
                 </div>
               </li>

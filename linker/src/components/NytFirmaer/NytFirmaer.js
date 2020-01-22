@@ -9,6 +9,7 @@ const NytFirmaer = () => {
         {aktiv: 'analytics-3088958_640.jpg', overskrift: 'Web2land ', producttext: 'Jeg er klar til at prøve krafter med web verden ', link: 'Læs mere her', id: 1},
         {aktiv: 'artificial-intelligence-3382507_640.jpg', overskrift: 'Web for all', producttext: 'Jeg er klar til at prøve krafter med web verden', link: 'Læs mere her', id: 2},
         {aktiv: 'matrix-2953869_640.jpg', overskrift:'Web2Web', producttext: 'Jeg er klar til at prøve krafter med web verden', link: 'Læs mere her', id: 3},
+        {aktiv: 'matrix-2953869_640.jpg', overskrift:'Web2Web', producttext: 'Jeg er klar til at prøve krafter med web verden', link: 'Læs mere her', id: 4},
        
 
     ]);

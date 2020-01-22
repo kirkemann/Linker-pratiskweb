@@ -41,7 +41,7 @@ const KontaktOs = () => {
                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
-                    <button type="submit" className="btn btn-primary mb-5">Send Besked</button>
+                    <button type="submit" className="btn btn-outline-secondary mb-5">Send Besked</button>
                 </form>          
 
                 <div className="col-6 mt-5">

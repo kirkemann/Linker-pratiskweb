@@ -4,7 +4,7 @@ const HeaderSprog = () => {
     return ( 
         <div className="container">
           <div className="dropdown text-right">
-            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button className="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Choose language
             </button>
             <div className="dropdown-menu bg-secondary" aria-labelledby="dropdownMenu2">

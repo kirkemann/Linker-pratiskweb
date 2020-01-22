@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 
@@ -46,11 +46,11 @@ const Firmaer  = (props) => {
 
     }).map(function (n) {
         return(
-            <div key={n.id} className="col-12 col-lg-4 col-md-6 mb-3">
+            <div key={n.id} className="col-12 col-lg-4 col-md-6 my-3">
                 <img className="img-fluid w-100" src={"/img/" + n.aktiv} alt="Elev"/>
                 <h5 className="card-title">{n.overskrift}</h5>
                 <p className="card-text small"> {n.producttext} </p>
-                <NavLink className="btn btn-outline-success knap" to="#"> {n.link} </NavLink>
+                <Link className="btn btn-outline-secondary" to="#"> {n.link} </Link>
             </div>
         )
     })

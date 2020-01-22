@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {NavLink} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const SelvElever = (props) => {
 
@@ -44,11 +44,11 @@ const SelvElever = (props) => {
 
     }).map(function (f) {
         return(
-            <div key={f.id} className="col-12 col-lg-4 col-md-6 mb-3">
+            <div key={f.id} className="col-12 col-lg-4 col-md-6 my-3">
                 <img className="img-fluid w-100" src={"/img/" + f.aktiv} alt="Elev"/>
                 <h5 className="card-title">{f.overskrift}</h5>
                 <p className="card-text small"> {f.producttext} </p>
-                <NavLink className="btn btn-outline-success knap" to="#"> {f.link} </NavLink>
+                <Link className="btn btn-outline-secondary" to="/"> {f.link} </Link>
             </div>
         )
     })

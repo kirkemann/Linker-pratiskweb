@@ -1,0 +1,16 @@
+// Eget style/theming som skal overrider BS
+
+$primary: green;
+$secondary: #81BC40;
+
+
+
+
+
+// import af BS - EFTER eget "override"
+// Hent ALT
+@import "bootstrap/scss/bootstrap.scss";
+
+
+
+

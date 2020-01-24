@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import './index';
@@ -19,7 +19,7 @@ import TipsOgRaad from './components/selvelev/TipsOgRaad';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header />
         <Route exact path="/" component={Home} />
@@ -45,7 +45,7 @@ function App() {
        
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
